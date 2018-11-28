@@ -1,0 +1,167 @@
+::-webkit-scrollbar {height:12px;width: 2px;background: rgb(76, 133, 98);}
+::-webkit-scrollbar-thumb {background-color: #22313F;-moz-border-radius: 10px;border-radius: 10px;}
+
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(css/icons.woff2) format('woff2');
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+
+.modal-backdrop {
+    z-index: 1;
+}
+
+nav {
+    background-color: #35495e;
+}
+
+element.style {
+    padding-right: none;
+}
+
+.modal-open .modal {
+    overflow-x: auto !important;
+}
+
+.banner {
+    background-image: url(img/banner11.jpg);
+    height: 700px;
+    width: 100%;
+    background-position: cover;
+    background-position-y: -900px;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.nav-item a {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+li.nav-item {
+    margin-right: 10px;
+}
+
+.nav-item a:hover {
+    text-shadow: 1px 1px 3px #000 !important;
+}
+
+.slogan {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.quote {
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+
+}
+
+.navbar .btn-primary {
+    padding: 4px 15px;
+    line-height: 30px;
+    margin-top: 1px;
+    background-color: #42b883;
+    border: none;
+
+}
+
+.caution {
+    margin-top: 40px;
+}
+
+.caution .card {
+    margin-top: 15px;
+    text-shadow: 1px 1px 1px #35495e;
+    background: linear-gradient(45deg, #42b883, #35495e, #41755e, #53687e);
+    background-size: 500% 500%;
+    color: #fff;
+    -webkit-animation: ignielGradient 12s ease infinite;
+    -moz-animation: ignielGradient 12s ease infinite;
+    animation: ignielGradient 12s ease infinite;
+    transition: .4s transform;
+}
+@-webkit-keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes ignielGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.caution .card:hover {
+    transform: scale(1.05);
+}
+
+i {
+    padding-top: 3px;
+}
+
+.dropdown-menu {
+     background-color: #22313F;
+}
+
+.dropdown-menu  a:hover{
+    background-color: #22313F;
+}
+
+.modal-header i {
+    margin-top: -5px;
+    margin-right: 10px;
+    color: rgb(184, 59, 59);
+}
+
+.modal-body .btn-primary {
+    background-color: #42b883;
+    font-weight: bold;
+} 
+
+.caution a{
+    text-decoration: none;
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 350px;
+}
+}
+
+.not-active {
+    cursor: not-allowed;
+}

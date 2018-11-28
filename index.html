@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Muding - Hadir Asah Kemampuanmu</title>
+  </head>
+  <body class="modal-open" style="padding-right: none !important;">
+
+<!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Muding</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+            <li class="nav-item">
+
+              <a  class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" role="button">Login</a>
+              
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <i class="material-icons">info</i>
+              <h5 class="modal-title" id="exampleModalCenterTitle">Silahkan Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form  id="form_id" method="post" name="myform">
+                <div class="form-group">
+                  <input  autofocus="autofocus" type="username" name="username" class="form-control" id="username" placeholder="Username">
+                  <small id="emailHelp" class="form-text text-muted">Gunakan username yang sudah terdaftar.</small>
+                </div>
+                <div class="form-group">
+                  <input type="password" name="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <button type="button" id="submit" value="Login" class="btn btn-primary" onclick="validate()">Login</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- Banner -->
+    <div class="banner">
+      <div class="container">
+          <div class="row">
+            <div class="col-md">
+              <h1 class="slogan text-center">Mulai asah skill programming kamu</h1>
+            </div>
+          </div>
+
+          <div class="row quote justify-content-lg-center">
+            <div class="col-lg-6 text-center ">
+              <p>Muding memberikan pembelajaran web programming dari dasar sehingga kamu mudah memahami.</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="container">
+          <div class="row caution">
+            <div class="col-md">
+                <div class="card not-active">
+                    <img class="card-img-top" src="img/html.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">HTML Dasar</h5>
+                      <p class="card-text text-center">mengubah pola pikir menjadi kritis sehingga mudah memecahkan masalah</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md">
+                <div class="card not-active">
+                    <img class="card-img-top" src="img/css.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">CSS Dasar</h5>
+                      <p class="card-text text-center">melatih daya ingat untuk menggunakan otak menjadi lebih efisien dalam berpikir</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md">
+                <div class="card not-active">
+                    <img class="card-img-top" src="img/nodejs.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Node.Js Dasar</h5>
+                      <p class="card-text text-center">tidak di targetkan karena dapat mengerjakan lebih santai namun terlatih</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md">
+              <div class="card not-active">
+                  <img class="card-img-top" src="img/vuejs.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Vue.Js Dasar</h5>
+                    <p class="card-text text-center">tidak di targetkan karena dapat mengerjakan lebih santai namun terlatih</p>
+                  </div>
+                </div>
+          </div>
+          </div>
+        </div>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>   
+      $('.modal').on('shown.bs.modal', function() {
+          $(this).find('[autofocus]').focus();
+        });
+    </script>
+  </body>
+</html>
+    
