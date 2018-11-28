@@ -10,7 +10,7 @@ return false;
 }
 else{
 attempt --;// Decrementing by one.
-alert("Password Anda Salah, Sesi login tinggal"+attempt+"x lagi");
+alert("Password Anda Salah, Sesi login tinggal "+attempt+"x lagi");
 // Disabling fields after 3 attempts.
 if( attempt == 0){
 document.getElementById("username").disabled = true;

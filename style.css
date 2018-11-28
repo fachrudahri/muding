@@ -42,11 +42,10 @@ element.style {
 }
 
 .banner {
-    background-image: url(img/banner11.jpg);
+    background-image: url(img/banner12.jpg);
     height: 700px;
     width: 100%;
     background-position: cover;
-    background-position-y: -900px;
     background-attachment:fixed;
     background-size: cover;
 }
