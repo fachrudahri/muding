@@ -37,16 +37,48 @@ element.style {
     padding-right: none;
 }
 
-.modal-open .modal {
-    overflow-x: auto !important;
-}
-
 .banner {
     background-image: url(img/banner12.jpg);
     height: 700px;
     width: 100%;
     background-position: cover;
     background-attachment:fixed;
+    background-size: cover;
+}
+
+.banner-html {
+    background-image: url(img/banner10.jpg);
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-css {
+    background-image: url(img/bcss.jpg);
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-nodejs {
+    background-image: url(img/bnodejs.jpg);
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-vuejs {
+    background-image: url(img/bvuejs.jpg);
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
 }
 
@@ -63,12 +95,44 @@ li.nav-item {
     margin-right: 10px;
 }
 
-.nav-item a:hover {
-    text-shadow: 1px 1px 3px #000 !important;
+.nav-item a.btn-primary:hover {
+    box-shadow: 0px 0px 10px #41755e; !important;
 }
 
 .slogan {
-    margin-top: 50px;
+    margin-top: 90px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.slogan-html {
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.slogan-css {
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.slogan-nodejs {
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.slogan-vuejs {
+    margin-top: 200px;
     font-weight: bold;
     font-size: 40px;
     color: #fff;
@@ -91,6 +155,10 @@ li.nav-item {
     background-color: #42b883;
     border: none;
 
+}
+
+.navbar . .btn-primary a:hover {
+    box-shadow: 10px 1px 5px #53687e !important;
 }
 
 .caution {
@@ -163,4 +231,35 @@ i {
 
 .not-active {
     cursor: not-allowed;
+}
+
+.color-playlist {
+    background-color: #35495e;
+}
+
+.accordion {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: #42b883;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.accordion .btn-link {
+    color: #35495e;
+    font-weight: 700;
+}
+
+.accordion .card {
+    background-color: #42b883;
+}
+
+.accordion .card-header {
+    background-color: #42b883;
+}
+
+.accordion .card-body {
+    background-color: #fff;
+    padding: 10%;
 }
