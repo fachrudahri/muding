@@ -4,7 +4,7 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "kelompok1imk" && password == "sesuatukita123"){
-alert ("Login successfully");
+alert ("YEEAYY.. Selamat Datang!!");
 window.location.href = 'home.html'; // Redirecting to other page.
 return false;
 }

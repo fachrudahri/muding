@@ -39,11 +39,12 @@ element.style {
 
 .banner {
     background-image: url(img/banner12.jpg);
-    height: 700px;
+    height: auto;
     width: 100%;
     background-position: cover;
     background-attachment:fixed;
     background-size: cover;
+    padding-bottom: 80px;
 }
 
 .banner-html {
@@ -262,4 +263,65 @@ i {
 .accordion .card-body {
     background-color: #fff;
     padding: 10%;
+}
+
+.judul-desc {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.list-fitur img {
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-color {
+    background-color: #22313F;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.footer-color h6 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-color i {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.footer-color a {
+    color: #94a4a5;
+    text-decoration: none;
+}
+
+.footer-color a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot-bag-two {
+    margin-top: 17px;
+}
+
+.foot-bag-two h6 {
+    padding-top: 3px;
+}
+
+.foot-bag-two a {
+    color: #42b883;
+    text-decoration: none;
+}
+
+.iconsos i {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.copyright {
+    font-weight: lighter;
+    font-size: 13px;
 }
