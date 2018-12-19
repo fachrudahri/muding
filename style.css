@@ -44,7 +44,7 @@ element.style {
     background-position: cover;
     background-attachment:fixed;
     background-size: cover;
-    padding-bottom: 28px;
+    padding-bottom: 80px;
 }
 
 .banner-html {
@@ -263,15 +263,6 @@ i {
 .accordion .card-body {
     background-color: #fff;
     padding: 10%;
-}
-
-.redzone {
-    width: 100%;
-    height: auto;
-    padding-top: 5px;
-    padding-bottom: 1px; 
-    background-color: rgb(233, 155, 170);
-    border: 2px solid red;
 }
 
 .judul-desc {

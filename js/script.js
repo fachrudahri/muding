@@ -19,4 +19,9 @@ document.getElementById("submit").disabled = true;
 return false;
 }
 }
-}
+};
+
+
+function gagal(){
+    alert('silahkan login terlebih dahulu..');
+};
